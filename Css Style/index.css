@@ -1,0 +1,19 @@
+.container{
+    width: 1024px;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas:
+    "Logo Links . Login"
+    "Main-Header . . Aside"
+    "Sub-Text Sub-Text . Aside"
+    "Article1 Article2 . Aside"
+    "Footer Footer Footer Footer"; 
+}
+.logo{
+    grid-area: header;
+    background-color: brown;
+    color: white;
+}
