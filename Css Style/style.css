@@ -1,7 +1,7 @@
 .container {
     width: 1024px;
     display: grid;
-
+    font-family: sans-serif;
     grid-template-columns: 100% 25%;
     grid-template-rows: 10% 70% 5%;
     grid-template-areas:
@@ -39,27 +39,12 @@
     text-align: center;
     color: chartreuse;
   }
-  
-.img1 {
-    float: left;
-    padding-bottom: 15px;
-    width: 10cm;
-  }
-  
   .ul-header {
     color: mediumblue;
     display: inline;
     float: left;
     list-style: none;
     text-align: center;
-
-  }
-  
-  .ul-header li {
-    list-style: none;
-    font-family: inherit;
-    float: left;
-    padding: 40px;
 
   }
   
@@ -155,9 +140,3 @@
     opacity: 50%;
   }
   
-  .footer-text {
-    display: flow-root;
-    padding-right: 10px;
-    padding-bottom: 30px;
-    color: white;
-  }
