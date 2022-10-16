@@ -29,11 +29,22 @@
     background-color: rgb(223, 219, 172);
     padding: 20px 50px;
   }
+  .item-side {
+    grid-area: side;
+    background-color: rgb(116, 200, 197);
+    color: rgb(18, 17, 17);
+  }
   .item-footer {
     grid-area: footer;
     background-color: black;
     text-align: center;
     padding-bottom: 5%;
+  }
+
+  .img-chamia{
+    float: left;
+    width: 120px;
+    padding: left 2px;
   }
   .text{
     text-align: center;
@@ -58,12 +69,16 @@
     color: #d0a8eb;
   }
   
-  .log {
+  .login {
     font-family: Impact, sans-serif;
-    color: white;
     text-decoration: none;
-    padding: 55px 0px 0 100px;
-    text-align: left;
+    grid-area: login;
+    background-color:rgb(98, 92, 92);
+    color: white;
+    padding: 16px;
+ margin-left: 10px;
+    list-style: none; 
+
     
   }
   
@@ -128,11 +143,6 @@
     padding: 30px;
     color: white;
     font-family: Helvetica, sans-serif;
-  }
-  .item-side {
-    grid-area: side;
-    background-color: rgb(116, 200, 197);
-    color: rgb(18, 17, 17);
   }
   
   hr {
